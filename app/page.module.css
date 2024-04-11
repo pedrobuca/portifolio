@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+}
+
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 101px;
+}
+
+
+
+
+.firstChild{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.firstChild div{
+  margin-top: 3em;
+}
+
+.saudacao{
+  padding: .5em;
+  border-radius: .5em;
+  color: #7B4AE2;
+  background-color: rgb(123, 74, 226, .10);
+  font-size: 1.5em;
+  justify-content: flex-start;
+
+}
+
+.div_myName h1{
+  display: flex;
+  margin-top: -.3em;
+  font-size: 6em;
+}
+
+.social{
+ display: flex;
+ margin-top: -15em;
+}
+
+.social a{
+  margin: 3px;
+ }
+
+ .cv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #7B4AE2;
+}
+
+.cv div{
+  margin-top: 1em;
+}
+
+.cv a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+ .baixar{
+  margin-left: .3em;
+ }
+
+ .conversar{
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+   border: 1px solid #7B4AE2;
+   padding: .7em;
+   border-radius: .8em;
+   gap: 8px;
+   font-size: 1.2em;
+ }

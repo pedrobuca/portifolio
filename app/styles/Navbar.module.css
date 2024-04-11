@@ -1,0 +1,26 @@
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     height: 6.5em;
+     padding-left: 24px;
+     padding-right: 24px;
+     color: rgb(255, 255, 255, .5);
+    }
+  
+  .menu ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu ul li{
+    margin-left: 1em;
+  }
+  
+  
+  .menu ul li a:hover{
+     color: #7B4AE2;
+     transition: all .4s;
+  }
+  
